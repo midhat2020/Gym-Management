@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-07 11:39:34.755403",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "locker_setting_section",
+  "number_of_lockers",
+  "online_class_section",
+  "are_you_a_member"
+ ],
+ "fields": [
+  {
+   "fieldname": "number_of_lockers",
+   "fieldtype": "Data",
+   "label": "Number of Lockers"
+  },
+  {
+   "fieldname": "locker_setting_section",
+   "fieldtype": "Section Break",
+   "label": "Locker Setting"
+  },
+  {
+   "fieldname": "online_class_section",
+   "fieldtype": "Section Break",
+   "label": "Online Class Setting"
+  },
+  {
+   "fieldname": "are_you_a_member",
+   "fieldtype": "Select",
+   "label": "Allow Non-Members to Register",
+   "options": "Yes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-07-07 17:26:54.828251",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

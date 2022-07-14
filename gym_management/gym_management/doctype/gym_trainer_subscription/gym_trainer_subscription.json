@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:GTS-{####}",
+ "creation": "2022-07-06 16:52:09.436736",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trainer",
+  "gym_workout_section",
+  "gym_workout_plan_exercise",
+  "tab_break_5",
+  "training_fee"
+ ],
+ "fields": [
+  {
+   "fieldname": "trainer",
+   "fieldtype": "Link",
+   "label": "Trainer",
+   "options": "Gym Trainer"
+  },
+  {
+   "fieldname": "gym_workout_section",
+   "fieldtype": "Section Break",
+   "label": "Gym Workout"
+  },
+  {
+   "fieldname": "gym_workout_plan_exercise",
+   "fieldtype": "Table",
+   "label": "Gym Workout Plan Exercise",
+   "options": "Gym Workout Plan Exercise"
+  },
+  {
+   "fieldname": "tab_break_5",
+   "fieldtype": "Tab Break",
+   "label": "Fees"
+  },
+  {
+   "fieldname": "training_fee",
+   "fieldtype": "Float",
+   "label": "Training Fee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-07-06 17:20:55.432647",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Trainer Subscription",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

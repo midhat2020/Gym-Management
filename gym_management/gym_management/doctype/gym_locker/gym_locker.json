@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:locker",
+ "creation": "2022-07-06 14:51:59.949176",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member_name",
+  "locker",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "member_name",
+   "fieldtype": "Link",
+   "label": "Member Name",
+   "options": "Gym Membership"
+  },
+  {
+   "fieldname": "locker",
+   "fieldtype": "Link",
+   "label": "Locker",
+   "options": "Lockers",
+   "unique": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Allocated\nUnallocated"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-07-06 15:29:27.249430",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Locker",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Green",
+   "title": "Allocated"
+  },
+  {
+   "color": "Red",
+   "title": "Unallocated"
+  }
+ ]
+}
